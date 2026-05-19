@@ -1,0 +1,27 @@
+.error_div
+{
+    width: 100%;
+    text-align: center;
+    background-color: var(--seconed);
+    border-radius: 10px;
+    height: 200px;
+
+}
+.links
+{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 95%;
+    position: relative;
+    top: 30px;
+}
+.links a 
+{
+    border-radius: 10px;
+    background-color: var(--backgroud);
+    width: 95%;
+    color: snow;
+    position: relative;
+    left: 2%;
+}

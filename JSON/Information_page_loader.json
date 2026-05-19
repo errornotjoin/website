@@ -1,0 +1,34 @@
+[
+    {
+        "title" : "Updates",
+        "FontAwason_icon" : "<i class='fa-solid fa-pen-to-square fa-xl'></i>",
+        "A_Link" : "sub_files/Updates/index.php?Id=1",
+        "information_about_title" : "Update is where I post updates about the website and other things that I might be working on. "
+    },
+    {
+        "title" : "Latest Projects",
+        "FontAwason_icon" : "<i class='fa-solid fa-diagram-project fa-xl'></i>",
+        "A_Link" : "sub_files/Projects/index.php",
+        "information_about_title" :"I will upload my projects to this page, mostly PHP, Python, and sometimes other things that I am working on, like blender 3d "
+    },
+
+    {
+        "title" : "Minecraft Servers",
+        "FontAwason_icon" : "<i class='fa-solid fa-server fa-xl'> </i>",
+        "A_Link" : "sub_files/minecraft_server/minecraft_server.php",
+        "information_about_title" :"This page is where you can get information about how to connect to the Minecraft server, rules and additional information "
+    },
+
+    {
+        "title" : "contact Me",
+        "FontAwason_icon" : "<i></i>",
+        "A_Link" : "Contact.php",
+        "information_about_title" : "if you want to seee how you can contact me, email, discord and more"
+    },
+    {
+        "title" : "login",
+        "FontAwason_icon" : "<i class='fa-solid fa-pen-to-square fa-xl'></i>",
+        "A_Link" : "https://admin.errornotjoin.tech/",
+        "information_about_title" : "Login page for the admins (there no sign up page)"
+    }
+]

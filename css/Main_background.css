@@ -1,0 +1,214 @@
+@import url('Main_colours.css');
+
+body
+{
+    background: var(--background);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: snow;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.topnav
+{
+    display: none;
+}
+a
+{
+    color: snow;
+
+}
+
+
+header
+{
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    bottom: 25px;
+    background-color: var(--seconed);
+    height: 70px;
+    width: 99%;
+    color: snow;
+    border-radius: 10px;
+    position: relative;
+
+}
+header div
+{
+
+    display: flex;
+    gap: 0%;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+header div h2
+{
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+}
+header div a
+{
+    height: 50px;
+    width: 100%;
+}
+header div a:hover
+{
+    background-color: var(--third);
+    border-radius: 10px;
+
+}
+.Main_items
+{
+    position: relative;
+    top: 20px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    gap: 2%;
+    color: snow;
+    width: 95%;
+}
+aside
+{
+
+    gap: 10%;
+    background-color: var(--seconed);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 700px;
+    
+}
+aside nav
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+aside button
+{
+    position: relative;
+    top: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    width: 95%;
+    position: relative;
+    margin-top: 10px;
+    left: 2%;
+    height: 90px ;
+    background-color: #031527;
+    color: snow;
+    border-radius: 10px;
+}
+aside button:hover
+{
+    background-color: var(--backgroud);
+    height: 100px; ;
+}
+
+@media (max-width:1616px) {
+    header
+    {
+        text-align: center;
+    }
+    .Main_items
+    {
+        position: relative;
+        top: 20px;
+        left: 2%;
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+        color: snow;
+        width: 95%;
+    }
+    .Main_items
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 95%;
+    }
+    .Main_items aside 
+    {
+
+        height: 120px;
+        overflow-x: scroll;
+    }
+    .Main_items aside nav
+    {
+                display: grid;
+        grid-template-columns: 30% 30% 30% 30% 30% 30%;
+    }
+    .Main_items aside nav bottom
+    {
+        width: 100%;
+    }
+}
+@media (max-width:1206px) {
+    
+    .Name_of_website
+    {
+        display: none;
+    }
+    .topnav
+    {
+        display: flex;
+        gap: 20%;
+        position: relative;
+        left: 5%;
+        top: 10px;
+        width: 95%;
+        overflow-x: scroll;
+    }
+    .topnav a
+    {
+        position: relative;
+        bottom: 5px;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 25px;
+        width: 99%;
+        position: relative;
+        background-color: var(--backgroud);
+        color: snow;
+        border-radius: 10px;
+    }
+
+}
+@media (max-width: 875px)
+{
+.Main_items
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 95%;
+}
+.Main_items aside 
+{
+    height: 220px;
+    overflow-y: scroll;
+}
+        .Main_items aside nav
+    {
+                display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width: 365px)
+{
+.title_center div
+{
+    position: relative;
+    top: 150px;
+    left: 3%;
+    background-color: #141414;
+    border-radius: 10px;
+    width: 95%;
+
+}
+    
+}

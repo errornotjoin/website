@@ -1,0 +1,59 @@
+.update_item
+{
+    position: relative;
+    left: 23%;
+    width: 55%;
+    background: linear-gradient(to top, #07345e, #03203A);
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content(100%) ;
+
+
+}
+.update_item_top
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(to top, #010B13, #051B31);
+    box-shadow: 0px 4px 8px #00000033;
+}
+.update_item_info
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+.Update_go_back p 
+{
+    width: 10%;
+    height: 30px;
+    background: linear-gradient(to bottom, #07345e, #03203A);
+    border-radius: 10px;
+    text-align: center;
+}
+.update_item_top h1
+{
+    position: relative;
+    top: 30px;
+    left: 3%;
+    width: 95%;
+    background: linear-gradient(to bottom, #07345e, #03203A);
+    border-radius: 5px;
+}
+.update_item_info p
+{
+    background: linear-gradient(to bottom, #07345e, #03203A);
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    border:solid 3px #000000;
+}
+.update_item_text 
+{
+    position: relative;
+    left: 2%;
+    width: 90%;
+    align-items: start;
+    text-align: start   ;
+} 

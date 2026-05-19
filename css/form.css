@@ -1,0 +1,66 @@
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    background-color: var(--seconed);
+    border-radius: 10px;
+    position: relative;
+    left: 20%;
+    height: 600px;
+    text-align: center;
+}
+form h1
+{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: snow;
+    margin-top: 20px;
+    background-color: var(--third);
+}
+form div
+{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 5%
+    ;
+    position: relative;
+    left: 3%;
+    text-align: center;
+
+}
+form div input, form div select, form textarea, form button
+{
+    height: 50px;
+    background-color: var(--backgroud);
+    color: snow;
+    text-align: center;
+}
+form textarea
+{
+    width: 95%;
+    height: 200px;
+    position: relative;
+    left: 2%;
+}
+form button
+{
+    width: 95%;
+    height: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: snow;
+    position: relative;
+    top: 20px;
+    left: 2%;
+}
+
+form div input:user-invalid:not(:focus):not(:placeholder-shown), form div select:user-invalid:not(:focus):not(:placeholder-shown), form textarea:user-invalid:not(:focus):not(:placeholder-shown)
+{
+    border:solid red 2px;
+}
+form div input:user-valid:not(:focus):not(:placeholder-shown), form div select:user-valid:not(:focus):not(:placeholder-shown), form textarea:user-valid:not(:focus):not(:placeholder-shown)
+{
+    border:solid green 2px;
+}
