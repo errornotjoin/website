@@ -24,5 +24,11 @@
         "FontAwason_icon" : "<i class='fa-brands fa-twitter fa-xl'></i>",
         "A_Link" : "https://x.com/findthaterror",
         "information_about_title" : "if you want to check my twitter, then here a link"
+    },
+    {
+        "title" : "Github",
+        "FontAwason_icon" : "<i class='fa-brands fa-twitter fa-xl'></i>",
+        "A_Link" : "https://github.com/errornotjoin",
+        "information_about_title" : "if you want to check out my github account, this website code is public there too"
     }
 ]

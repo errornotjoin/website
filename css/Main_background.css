@@ -33,6 +33,7 @@ header
     color: snow;
     border-radius: 10px;
     position: relative;
+            overflow-y: none;
 
 }
 header div
@@ -136,11 +137,14 @@ aside button:hover
 
         height: 120px;
         overflow-x: scroll;
+        overflow-y: none;
     }
     .Main_items aside nav
     {
                 display: grid;
-        grid-template-columns: 30% 30% 30% 30% 30% 30%;
+        grid-template-columns: 30% 30% 30% ;
+        position: relative;
+        bottom: 10px;
     }
     .Main_items aside nav bottom
     {
