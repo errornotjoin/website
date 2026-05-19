@@ -21,7 +21,7 @@
 
     {
         "title" : "contact Me",
-        "FontAwason_icon" : "<i></i>",
+        "FontAwason_icon" : "<i class='fa-solid fa-address-book fa-xl'></i>",
         "A_Link" : "Contact.php",
         "information_about_title" : "if you want to seee how you can contact me, email, discord and more"
     },

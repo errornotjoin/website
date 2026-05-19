@@ -53,3 +53,8 @@ a
   position: relative;
   top: 30px;
 }
+.Updates_section:hover
+{
+    transform:translate(10px, 2px) scale(1.05) ;
+    
+}
