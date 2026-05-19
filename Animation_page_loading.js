@@ -16,7 +16,7 @@ async function Creating_elements_for_loading_page(what_JSON_file_to_read)
                     "<p>" + item.title + "</p>" + 
                     "</div>"+
                     "<div>"+
-                    "<p>" + item.information_about_title + "</p>"+
+                    "<p class='text_to_low'>" + item.information_about_title + "</p>"+
                     "</div>"
                 )
             create_partain.className = 'Updates_section'

@@ -11,7 +11,7 @@ include("database/sql_items.php");
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/Main_colours.css">
     <link rel="stylesheet" href="css/Main_background.css">
-    <link rel="stylesheet" href="css/index.css">
+
     <link rel="stylesheet" href="css/contact.css">
     <script src="https://kit.fontawesome.com/60adc08c28.js" crossorigin="anonymous"></script>
     <title>contact -- ErrorNotJoin</title>
