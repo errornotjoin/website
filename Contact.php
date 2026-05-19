@@ -13,14 +13,12 @@ include("database/sql_items.php");
     <link rel="stylesheet" href="css/Main_background.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/contact.css">
+    <script src="https://kit.fontawesome.com/60adc08c28.js" crossorigin="anonymous"></script>
     <title>contact -- ErrorNotJoin</title>
 </head>
 <body>
-    <header>
-        <h1>ErrorNotJoin.tech</h1>
-    </header>
     <main class="Main_items" style="  grid-template-columns: 100% ;">
-        <section class="The_main_items" id="The_main_items">
+        <section class="The_main_items" id="Main_section">
         </section>
     </main>
     <script src="Animation_page_loading.js"></script>

@@ -35,7 +35,7 @@
              else
               {
 
-                echo '<iframe id="iframes" src="http://mcmap.errornotjoin.space/" allowfullscreen width="102.5%" height="900px"  style="  border-radius: 10px;" allowtransparency="true" frameborder="0"></iframe>';
+                echo '<iframe id="iframes" allow src="http://mcmap.errornotjoin.space/" allowfullscreen width="102.5%" height="900px"  style="  border-radius: 10px;" allowtransparency="true" frameborder="0"></iframe>';
                 
               }
             ?>

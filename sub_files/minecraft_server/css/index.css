@@ -2,11 +2,13 @@
 .Main_section input
 {
     background-color: #031527;
-    height: 30px;
+    height: 50px;
     width: 95%;
     border-radius: 10px;
     text-align: center;
     position: relative;
+    font-size: large;
+    color: snow;
 
 }
 .Main_section input:disabled
@@ -22,30 +24,36 @@
 }
 .small_div
 {
-    background-color: var(--seconed);
+    background: linear-gradient(to top, #07345e, #03203A);
     height: 150px ;
     width: 100%;
     text-align: center;
     border-radius: 10px;
 }
-.small_div h3
-{
-    color: snow;
-    background-color: #133555;
-    text-align: center;
-}
+
 .Other_div
 {
     height: 500px;
-    background-color: var(--seconed);
+    background: linear-gradient(to top, #07345e, #03203A);
     border-radius: 10px;
    
 }
-.Other_div h3
+.Other_div div, .small_div div
 {
     color: snow;
-    background-color: #133555;
+    background: linear-gradient(to top, #010B13, #051B31);
     text-align: center;
+    height: 50px;
+    position: relative;
+    bottom:  30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Other_div div h3  , .small_div div h3
+{
+    position: relative;
+    top: 10px;
+    
 }
 .Other_div ul
 {
@@ -64,6 +72,23 @@
 .Other_div a
 {
     text-decoration: none;
+}
+.two_items_to_close
+{
+    background:none;
+    position: relative;
+    bottom: 15px;
+
+}
+.two_items_to_close input
+{
+    margin-bottom: 10px;
+    height: 30px;
+}
+li
+{
+    margin-bottom: 10px;
+    color: snow;
 }
 @keyframes Loading_page {
 

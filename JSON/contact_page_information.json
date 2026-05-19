@@ -1,0 +1,28 @@
+[
+    {
+        "title" : "Go Back",
+        "FontAwason_icon" : "<i class='fa-solid fa-pen-to-square fa-xl'></i>",
+        "A_Link" : "index.php",
+        "information_about_title" : "Go back to home page "
+    },
+    {
+        "title" : "Email",
+        "FontAwason_icon" : "<i class='fa-solid fa-envelope fa-xl'></i>",
+        "A_Link" : "mailto:errornotjoin@duck.com",
+        "information_about_title" :"you can email @ errornotjoin@duck.com"
+    },
+
+    {
+        "title" : "Discord",
+        "FontAwason_icon" : "<i class='fa-brands fa-discord fa-xl'></i>",
+        "A_Link" : "",
+        "information_about_title" :"This is where i on most of time then rest, so if you want to dm me and get fast reponsts then go there"
+    },
+
+    {
+        "title" : "twitter",
+        "FontAwason_icon" : "<i class='fa-brands fa-twitter fa-xl'></i>",
+        "A_Link" : "https://x.com/findthaterror",
+        "information_about_title" : "if you want to check my twitter, then here a link"
+    }
+]

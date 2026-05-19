@@ -41,32 +41,47 @@ include("../../database/sql_items.php");
                         
                     }
                 ?>
+                <div>
                 <h3>Java IP:</h3>
+                </div>
                 <input disabled type="text" placeholder="Server IP Address" id="server_ip_input" value="<?php echo $Ips[0]; ?>">
             </div>
             <div class="small_div">
-
+                <div>
                 <h3>BedRock IP:</h3>
+                </div>
                 <?php
                 $sql_code = "SELECT Port FROM `mc_ip` WHERE `Platform` = 'BedRock' ";
                 $Sql_query = mysqli_query($Server_connects, $sql_code);
                 while($row = mysqli_fetch_assoc($Sql_query))
                     {
+                        if($row = ": 0 ")
+                            {
+                                $Port = "Coming Soon";
+                            }
+                        else
+                        {
                         $Port = $row['Port'];
-
+                        }
                         
                         
                     }
                 ?>
+                <section class="two_items_to_close">
                 <input disabled id="" value="<?php echo $Ips[1]; ?>">
-                <input type="text" disabled value=": <?php echo $Port; ?>">
+                <input type="text" disabled value=" <?php echo $Port; ?>">
+                </section>
             </div>
             <div class="small_div">
+                <div>
                 <h3>Server Version</h3>
+                </div>
                 <input type="text" disabled value="<?php echo $Ips[2]?>">
             </div>
             <div class="Other_div">
+                <div>
                 <h3>Rules</h3>
+                </div>
                 <ul>
                 <?php
                 $sql_code = "SELECT title FROM `mc_roles` ";
@@ -79,21 +94,25 @@ include("../../database/sql_items.php");
                 </ul>
             </div>
             <div class="Other_div">
+                <div>
                 <h3>Plugins</h3>
+                </div>
                 <ul>
                 <?php
                 $sql_code = "SELECT * FROM `mc_plugins` ";
                 $Sql_query = mysqli_query($Server_connects, $sql_code);
                 while($row = mysqli_fetch_assoc($Sql_query))
                     {
-                        echo '<li> <a href="' . $row['Link'] . '"><p class="rule_title"> ' . $row['title'] . '</p></a></li>';
+                        echo '<li> <a href="' . $row['Link'] . '"><input value= "' . $row['title'] . '"/></a></li>';
                     }
                 ?>
                 </ul>
                 
             </div>
             <div class="Other_div">
+                <div>
                 <h3>Safety Information</h3>
+                </div>
                 <ul>
                     <li>Do not share your personal information with other players.</li><br>
                     <li>Report any suspicious activity to the server administrators.</li> <br>

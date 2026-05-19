@@ -1,47 +1,7 @@
-List_of_contact = ['<','Go Back','Email','Twitter','Website','GitHub'];
-List_of_links_contact = ['index.php','mailto:errornotjoin@duck.com','https://twitter.com/errornotjoin','https://errornotjoin.tech','https://errornotjoin.tech', 'https://github.com/errornotjoin'];
-
-var x = 0 ;
-
-function Creating_items_for_contact_page()
-{  if (x == List_of_contact.length)
-    {
-        return;
-    }
-    else
-    {
-        var Main_section = document.getElementById("The_main_items");
-        var a = document.createElement("a");
-        var section = document.createElement("section");
-        var image = document.createElement("img")
-        var div_end_of_div = document.createElement("div");
-        var div_title_center = document.createElement("div");
-        var title = document.createElement("p");
-        var title2 = document.createElement("p");
-        div_end_of_div.className = "End_of_div";
-        div_title_center.className = "title_center";
-
-        section.className = "Updates_section";
-        Main_section.appendChild(a);
-        a.appendChild(section);
-        section.appendChild(image)
-        section.appendChild(div_end_of_div);
-        section.appendChild(div_title_center);
-        div_end_of_div.appendChild(title);
-        div_title_center.appendChild(title2);
-        title2.textContent = "Contact Me via " + List_of_contact[x];
-        image.src = list_of_main_page_images[x]
-        title.textContent = List_of_contact[x];
-        a.href = List_of_links_contact[x];
-        section.style.animation = "Loading_page 0.5s ease-in-out forwards";
-        x++
-        setTimeout(Creating_items_for_contact_page, 500);
-    }
-}
-async function Creating_elements_for_loading_page()
+async function Creating_elements_for_loading_page(what_JSON_file_to_read)
 { 
     var main_items = document.getElementById("Main_section")
-    fetch("JSON/Information_page_loader.json")
+    fetch(what_JSON_file_to_read)
     .then(res => res.json())
     .then(items => 
         {
@@ -72,11 +32,11 @@ async function Creating_elements_for_loading_page()
 
 if (location.href.includes("http://localhost/website/Contact.php") || location.href.includes("https://errornotjoin.tech/Contact.php") || location.href.includes("Contact.php") || location.href.includes("https://errornotjoin.tech/Contact.php"))
 {
-    Creating_items_for_contact_page();
+    Creating_elements_for_loading_page("JSON/contact_page_information.json");
 }
 else if (location.pathname.includes("index.php")  || location.href.includes("https://errornotjoin.tech/index.php") ||  location.href.includes("http://localhost/website/index.php") || location.href.includes("https://errornotjoin.tech/") ||  location.href.includes("http://localhost/website"))
 {
-    Creating_elements_for_loading_page();
+    Creating_elements_for_loading_page("JSON/Home_page_information.json");
 }
 else
 {

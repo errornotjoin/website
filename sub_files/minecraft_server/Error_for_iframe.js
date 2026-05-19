@@ -37,10 +37,8 @@ function cheack_iframe() {
         // and not check the iframe anymore
         // this just here just in case i need it in the future
         return;}
-    else if ( iframe_error.contentDocument.body.innerHTML.includes("This page can't be displayed") || iframe_error.contentDocument.body.innerHTML.includes("is not allowed to display in a frame")) {
-        // Iframe failed to load
-        // Remove the iframe and display an error message
-        // telling it to create a error items
+    iframe_error.onerror = () =>
+    {
         total = total + 1
         iframe_error.remove();
         Creating_Error_info()
