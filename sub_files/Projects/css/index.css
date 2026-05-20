@@ -1,0 +1,138 @@
+a
+{
+  text-decoration: none;
+}
+.image_background {
+  height: 300px;
+  width: 99%;
+  object-fit:scale-down;  
+  border-radius: 10px;
+  position: relative;
+  left: 0%;
+  border: 10px;
+
+}
+.Main_section
+{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+
+  position: relative;
+  top: 130px;
+  width: 95%;
+  gap: 5%;
+
+}
+.Updates_section
+{
+    height: 200px;
+    width: 95%;
+    background: linear-gradient(to top, #07345e, #03203A);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 35%35% 35%;
+}
+.End_of_div
+{
+    background: linear-gradient(to top, #010B13, #051B31);
+    width: 95%;
+    height: 50px;
+    position: relative;
+    bottom: 40px;
+    display: grid;
+    grid-template-columns: 10% 75%;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+.something
+{
+        grid-column-start: 1;
+    grid-column-end: 4;
+}
+.the_aside_thing
+{
+            grid-column-start: 4;
+    grid-column-end: 4;
+    position: relative;
+    right: 52%;
+    bottom: 80px;
+    height: 230px;
+    z-index: -1;
+    background:none;
+}
+.End_of_div p
+{
+width: 100%;
+}
+.End_of_div i
+{
+    position: relative;
+    top: 30px;
+    left: 4%;
+}
+.Updates_section:hover
+{
+    transform:translate(10px, 2px) scale(1.05) ;
+    
+}
+.text_to_low
+{
+  position: relative;
+  bottom: 30px;
+}
+.php,.Css,.Html
+{
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 40px;
+}
+.php p ,.Css p ,.Html p 
+{
+    position: relative;
+    top: 5px;
+}
+.php
+{
+background:linear-gradient(#4a045a,#24022c);
+}
+.Css
+{
+    background:linear-gradient(#04425a,#02112c);
+
+}
+.Html
+{
+    background:linear-gradient(rgb(1, 30, 155),rgb(1, 1, 71));
+}
+@media (max-width:1236px) {
+  .Main_section
+  {
+    display: grid;
+    grid-template-columns: 45% 45% ;
+  }
+  
+}
+@media (max-width:678px) {
+  .Main_section
+  {
+    display: grid;
+    grid-template-columns: 95%  ;
+  }
+  
+}
+@media (max-width:346px) {
+  .Main_section
+  {
+    display: grid;
+    grid-template-columns: 99%  ;
+  }
+  .Updates_section
+  {
+    height: max-content
+  }
+}

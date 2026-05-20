@@ -37,7 +37,7 @@ include("../../database/sql_items.php");
                         echo '<h2>'.$update["Title"].'</h2>';
                         echo '<div class="update_item_info">';
                             echo '<p title="User Role">'.$update["User_role"].'</p>';
-                            echo '<p title="Author">'.$update["By_who"].'</p>';
+                            echo '<p class="Author" title="Author">'.$update["By_who"].'</p>';
                             echo '<p title="Date Created">'.$update["When_made"].'</p>';
                         echo "</div>";
                     echo "</div>";

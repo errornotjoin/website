@@ -33,7 +33,7 @@ if (website_url.endsWith("Contact.php"))
 {
     Creating_elements_for_loading_page("JSON/contact_page_information.json");
 }
-else if (website_url == "" || website_url.endsWith("index.php"))
+else if (website_url == "" || website_url.endsWith("index.php") || website_url.indexOf("http://localhost/website/"))
 {
     Creating_elements_for_loading_page("JSON/Home_page_information.json");
 }

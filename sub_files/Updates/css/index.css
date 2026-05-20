@@ -8,7 +8,7 @@
 .The_main_items
 {
     display: grid;
-    grid-template-columns: 33% 33% 33% ;
+    grid-template-columns: 45% 45%  ;
         width: 95%;
         gap: 5%;
 }
@@ -101,4 +101,30 @@
     text-align: center;
 
     border-bottom-left-radius: 10px;
+}
+@media (max-width: 1076px) {
+    .The_main_items
+    {
+       display: grid;
+        grid-template-columns: 95%   ;
+        width: 95%;
+        gap: 5%;
+    }
+}
+@media (max-width: 494px) {
+    .Author{
+         display: none;
+    }
+    .update_item_info
+    {
+        display: grid;
+        grid-template-columns: 45%45%;
+    }
+    .update_item_info p:first-child
+    {
+        position: relative;
+        left: 3%;
+    }
+
+
 }
